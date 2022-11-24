@@ -5,8 +5,10 @@ Sample data and Python code for the article: F. Brun et al., [Post-reconstructio
 
 ## Input
 
-Code requires as input a stack of propagation-based phase-contrast X-ray CT (Computed Tomography) reconstructed slices and the experimental conditions (i.e, energy, propagation distance and pixel size). Given the refractive index of the homogeneous material (i.e., delta and beta parameters), the output is the phase retrieved volume (written to disk as a stack of slices) according to a 3D version of the TIE algorithm (Paganin's). In other words, the input is the dataset as reconstructed via a conventional "absoprtion" computing pipeline and the output is the phase map. 
+Code requires as input a stack of propagation-based phase-contrast X-ray CT (Computed Tomography) reconstructed slices and the experimental conditions (i.e, energy, propagation distance and pixel size). Given the refractive index of the homogeneous material (i.e., delta and beta parameters), the output is the phase retrieved volume (written to disk as a stack of slices) according to a 3D version of the TIE algorithm (Paganin's). 
+
+In other words, the input is the dataset as reconstructed via a conventional "absoprtion" computing pipeline and the output is the phase map, as depicted in the following figure (an axial slice is reported but the process operates over the whole 3D volume):
 
 ![](/doc/figure1.jpg)
 
-**Note**: The code does not require projection images and/or flat/dark images. It can be applied to past archived reconstructed data for which tomographic projections are no more available.
+**Note**: This approach does not require projection images and/or flat/dark images. It can be applied to past archived reconstructed data for which tomographic projections are no more available.
