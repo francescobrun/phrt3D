@@ -11,4 +11,4 @@ Code requires as input a stack of propagation-based phase-contrast X-ray CT (Com
 
 ![](/doc/figure1.jpg)
 
-**Note**: The code does not require projection images and/or flat/dark images. It can be applied to past archived reconstructed data for which tomographic projections were not saved.
+**Note**: The code does not require projection images and/or flat/dark images. It can be applied to past archived reconstructed data for which tomographic projections are no more available.
