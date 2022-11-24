@@ -7,7 +7,7 @@ Sample data and Python code for the article: F. Brun et al., [Post-reconstructio
 
 ## Input
 
-Code requires as input a stack of propagation-based phase-contrast X-ray CT (Computed Tomography) reconstructed slices and the experimental conditions (energy, propagation distance and pixel size). Given the refractive index of the homogeneous material (in the form of delta and beta parameters of the code), the output is the phase retrieved volume (written to disk as a stack of slices) according to a 3D version of the TIE algorithm (Paganin's). In other words, the input is the common absorption reconstructed dataset and the output is the phase map. 
+Code requires as input a stack of propagation-based phase-contrast X-ray CT (Computed Tomography) reconstructed slices and the experimental conditions (i.e, energy, propagation distance and pixel size). Given the refractive index of the homogeneous material (i.e., delta and beta parameters), the output is the phase retrieved volume (written to disk as a stack of slices) according to a 3D version of the TIE algorithm (Paganin's). In other words, the input is the common absorption reconstructed dataset and the output is the phase map. 
 
 ![](/doc/figure1.jpg)
 
